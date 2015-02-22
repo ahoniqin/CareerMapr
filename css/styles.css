@@ -12,8 +12,6 @@ body {
    font-weight: 300;
    color: #FFF;
    margin: 0;
-    background-repeat: no-repeat;
-    background-color: #C1C1C1;
 }
 ul {
 	list-style-type: none;
@@ -21,25 +19,7 @@ ul {
 
 
 
-
 /* Splash Page */
-img.bg {
-	/* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-
-  z-index:-1;
-}
-
 #splash-logo {
 	width: 319px;
 	height: 82px;
@@ -493,12 +473,3 @@ footer .left {
 		padding-right: 48px;
 	}
 }
-
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.bg {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
-
-
-

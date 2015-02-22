@@ -245,7 +245,8 @@ $num_results =mysqli_num_rows($result);
                 	echo "<tr>";
 					echo '<td class="city">'.$row['Geography'] .'</td>';
 					echo '<td class="salary">'.$row['Jan-15'] .'</td>';
-					echo '<td class="demand">'. $row['ddd'].'</td>';
+					//echo '<td class="demand">'. $row['ddd'].'</td>';
+					//echo '<td class="living">'. $row['ddd'].'</td>';
            
             	}
 					

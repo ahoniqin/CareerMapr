@@ -1,0 +1,193 @@
+/*About Us*/
+.about p{
+    color: #A9A9A9;
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+#process{
+    display: block;
+    width: 80%;
+    text-align: left;
+}
+
+h4, #process p{
+    text-align: left;
+    
+}
+
+#intro {
+    text-align: center;
+}
+
+h4 {
+    color: #A9A9A9;
+    margin-top: 30px;
+    margin-left: 34px;
+}
+
+#tablewrap{
+    margin: 60px 12% 0 12%;
+    width: 95%%;
+    position: relative;
+}
+
+table, th, td{
+    border: 0px;
+    table-layout: fixed;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+table{
+    float: left;
+}
+
+th, td{
+    overflow: hidden;
+    width: 300px;
+}
+
+th p, td p{
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+#alice{
+        -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+    background-image: url("../img/profiles/alice-300.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height:253px;
+    width:253px;
+    float:left;
+    margin: 20px 30px;
+}
+
+#april{
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+    background-image: url("../img/profiles/april.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    height:253px;
+    width:253px;
+    float:left;
+    margin: 20px 30px;
+}
+
+#tiff{
+        -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+    background-image: url("../img/profiles/tiff-300.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    height:253px;
+    width:253px;
+    float:left;
+    margin: 20px 30px;
+}
+
+#yourdon{
+        -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+    background-image: url("../img/profiles/yourdon.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height:253px;
+    width:253px;
+    float:left;
+    margin: 20px 30px;
+}
+
+#process{
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    padding: 100px 0;
+    
+}
+
+.datalink{
+    text-decoration: none;
+    border:none;
+    color:#F5A623;
+}
+
+
+@media screen and (max-width: 1500px){
+    #tablewrap{
+    margin: 60px 10% 0 6%;
+}
+}
+
+@media screen and (max-width: 1300px){
+    #tablewrap{
+    margin: 60px 8% 0 26%;
+}
+}
+
+    
+@media screen and (max-width: 1200px){
+    #tablewrap{
+    margin: 60px 8% 0 24%;
+}
+}
+    
+    @media screen and (max-width: 1000px){
+    #tablewrap{
+    margin: 60px 20%;
+}
+        
+        #profile{clear:both;}
+
+}
+
+@media screen and (max-width: 900px){
+    #tablewrap{
+    margin: 60px 8% 0 10%;
+}
+}
+
+@media screen and (max-width: 600px){
+    #tablewrap{
+    margin: 60px 8% 0 6%;
+}
+    
+    h4, #intro p, #process p{
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 400px){
+    #tablewrap{
+    margin: 60px 8% 0 0;
+}
+    
+    table {
+        display: list-item;
+    }
+    
+    h4, #intro p, #process p{
+    text-align: center;
+}
+    
+}
